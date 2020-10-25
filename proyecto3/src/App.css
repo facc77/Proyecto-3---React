@@ -1,0 +1,20 @@
+.jumbotron {
+  background-image: url("img/concepto-salud.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 38rem;
+}
+
+.dropDown1 {
+  text-align: left;
+}
+.divButton {
+  display: flex;
+  justify-content: center;
+}
+.divButton p {
+  margin: 10px;
+}
+.jumbotronButton {
+  margin-top: 21rem;
+}
