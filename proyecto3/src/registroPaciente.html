@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/registro2.css">
+    <link rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Crear cuenta</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Usuario</label>
+                <input type="text" placeholder="Ingrese usuario" id="usuario" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Mensaje de error</small>
+            </div>
+            <div class="form-control">
+                <label for="usuario">Email</label>
+                <input type="email" placeholder="Ingrese mail" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Mensaje de error</small>
+            </div>
+            <div class="form-control">
+                <label for="contrasena">Contrasena</label>
+                <input type="password" placeholder="Ingrese contrasena" id="contrasena"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Mensaje de error</small>
+            </div>
+            <div class="form-control">
+                <label for="contrasena">Chequear contrasena</label>
+                <input type="password" placeholder="Reingrese contrasena" id="contrasena2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Mensaje de error</small>
+            </div>
+            <button id="Enviar">Enviar</button>
+        </form>
+    </div>
+
+    <script src="../js/registroPaciente.js"></script>
+
+    
+</body>
+</html>
+
